@@ -29,7 +29,8 @@ function showDetails() {
         "satyanadella": "images/satyanadella.jpg",                
         "AdaLovelace": "images/AdaLovelace.jpg",
         "madhu": "images/madhu.jpg",
-        "azaruddin": "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/STUDENTS/23951A66H8/23951A66H8.jpg"
+        "sohail": "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/STUDENTS/23951A66G9/23951A66G9.jpg",
+        "nitin": "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/STUDENTS/23951A66F6/23951A66F6.jpg",      "azaruddin": "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/STUDENTS/23951A66H8/23951A66H8.jpg"
     };
 
     // Mapping details
@@ -50,7 +51,9 @@ function showDetails() {
         "Sundar_Pichai": "Sundar Pichai is the CEO of Google.",
         "satyanadella": "Satya Nadella is the CEO of Microsoft.",
         "AdaLovelace": "Ada Lovelace was the first computer programmer.", 
-        "azaruddin": "Shaik Mohammad Azaruddin is a student at IARE and a software developer.He evolves as a programmer with a passion for coding and problem-solving. He is enthusiastic about learning new technologies and contributing to innovative projects.He tries to dsa but sometimes gets stuck in between."
+        "azaruddin": "Shaik Mohammad Azaruddin is a student at IARE and a software developer.He evolves as a programmer with a passion for coding and problem-solving. He is enthusiastic about learning new technologies and contributing to innovative projects.He tries to dsa but sometimes gets stuck in between.",
+        "nitin": "Nitin is a student at IARE and a software developer.He evolves as a programmer with a passion for coding and problem-solving. He is enthusiastic about learning new technologies and contributing to innovative projects.He tries to dsa but sometimes gets stuck in between."
+        ,"sohail": "Sohail is a student at IARE and a software developer.He evolves as a programmer with a passion for coding and problem-solving. He is enthusiastic about learning new technologies and contributing to innovative projects.He tries to dsa but sometimes gets stuck in between."
     };
 
     if (name === "") {
@@ -64,7 +67,7 @@ function showDetails() {
     info.innerHTML = details[name];
 
     // ⭐ Apply special frame ONLY for Elon Musk
-    if (name === "james") {
+    if (name === "james" || name === "nitin" || name=="azaruddin" || name==="sohail") {
         photo.classList.add("photo-james");
 		photo.classList.add("photo-james-blue");
     }
