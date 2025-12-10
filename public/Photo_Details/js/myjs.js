@@ -28,7 +28,8 @@ function showDetails() {
         "Sundar_Pichai": "images/Sundar_Pichai.jpg",
         "satyanadella": "images/satyanadella.jpg",                
         "AdaLovelace": "images/AdaLovelace.jpg",
-        "madhu": "images/madhu.jpg"
+        "madhu": "images/madhu.jpg",
+        "azaruddin": "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/STUDENTS/23951A66H8/23951A66H8.jpg"
     };
 
     // Mapping details
@@ -48,7 +49,8 @@ function showDetails() {
         "tim_berner": "Tim Berners-Lee invented the World Wide Web.",
         "Sundar_Pichai": "Sundar Pichai is the CEO of Google.",
         "satyanadella": "Satya Nadella is the CEO of Microsoft.",
-        "AdaLovelace": "Ada Lovelace was the first computer programmer."
+        "AdaLovelace": "Ada Lovelace was the first computer programmer.", 
+        "azaruddin": "Shaik Mohammad Azaruddin is a student at IARE and a software developer.He evolves as a programmer with a passion for coding and problem-solving. He is enthusiastic about learning new technologies and contributing to innovative projects.He tries to dsa but sometimes gets stuck in between."
     };
 
     if (name === "") {
